@@ -1,20 +1,19 @@
 # Your code goes here!
-class Dog 
+class Dog
   def name=(dogs_name)
     @name = dogs_name
-  end 
+  end
 
-  def name 
+  def name
     @name
-  end 
+  end
 
   def bark
     puts "woof!"
-  end 
-end 
+  end
+end
 
 snoopy = Dog.new
 snoopy.name
 snoopy.name
-snoopy.name
-
+//snoopy.name
